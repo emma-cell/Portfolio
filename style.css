@@ -1,4 +1,4 @@
-/*generelt start*/
+/********generelt start********/
 
 
 * {
@@ -16,49 +16,166 @@ img {
     width: 100%;
 }
 
-/*Links*/
-a {
-    text-decoration: none;
-    list-style-type: none;
+
+
+header {
+    width: 100%;
+    height: 40vw;
+    background-color: white;
+
 }
 
-/*navigations links*/
-nav a {
+
+
+/*fonts start*/
+h1 {
     color: black;
     font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+h2 {
+    color: black;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
     font-weight: 200;
 }
 
-/*navigations links*/
-nav a hover {
-    color: white;
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    max-width: 70ch;
 }
 
-/*generelt slut*/
+/*fonts slut*/
+
+
+/*******generelt slut*******/
 
 
 
 
 
-/*forside start*/
+/*logo og splash start*/
 
 
 /*logo skal sidde i venstre hjørne*/
 #logo {
     margin-left: 10px;
     margin-right: auto;
-    width: 8%;
+    width: 20%;
 
 }
 
 /*splash billede skal fylde ud og ligge i bunden*/
 #splash {
-    background-image: url(splash/splash_03.png);
     background-size: cover;
+    height: 100vh;
+}
+
+
+/*logo og splash slut*/
+
+
+
+
+
+/*burger menu start*/
+
+#mylinks {
+    color: black;
+    margin: 0;
+}
+
+#burger_menu {
+    position: absolute;
+    top: -7rem;
+    right: 0.8rem;
+    font-size: 2.3rem;
+    z-index: 100;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    display: flex;
 
 }
 
-/*forside slutt*/
+.burger_kryds {
+    font-size: 1.7rem;
+    padding: o.1rem;
+    transform: scale(1.4, 1);
+    margin-bottom: 0;
+    color: black;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+}
+
+#mylinks {
+    display: none;
+
+}
+
+
+#mylinks a {
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+
+}
+
+
+#menu_burger_bar {
+    position: relative;
+    top: 25vw;
+    left: 0;
+    width: 100vw;
+    background: white;
+
+}
+
+#menu_burger_bar a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: right;
+
+
+
+}
+
+/*
+#burger_tema_02,
+#burger_tema_03,
+#burger_tema_04,
+#burger_tema_05,
+#burger_cv {
+    height: 5rem;
+    width: 90%;
+    margin-right: 1.3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: flex-end;
+}*/
+
+
+
+/*burger menu start*/
+
+
+/********tema_02 start********/
+
+#tema_02 {
+    background-color: red;
+    text-align: center;
+}
+
+/********tema_02 slut********/
 
 
 
@@ -70,7 +187,7 @@ nav a hover {
 
 
 /*mobil*/
-@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 600px) {}
 
 /*tablet*/
 @media only screen and (min-width: 768px) {}
