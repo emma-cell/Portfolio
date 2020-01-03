@@ -1,0 +1,82 @@
+/*generelt start*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/*billeder*/
+img {
+    width: 100%;
+}
+
+/*Links*/
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*navigations links*/
+nav a {
+    color: black;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+}
+
+/*navigations links*/
+nav a hover {
+    color: white;
+}
+
+/*generelt slut*/
+
+
+
+
+
+/*forside start*/
+
+
+/*logo skal sidde i venstre hjørne*/
+#logo {
+    margin-left: 10px;
+    margin-right: auto;
+    width: 8%;
+
+}
+
+/*splash billede skal fylde ud og ligge i bunden*/
+#splash {
+    background-image: url(splash/splash_03.png);
+    background-size: cover;
+
+}
+
+/*forside slutt*/
+
+
+
+
+
+
+
+/*mediaquery start*/
+
+
+/*mobil*/
+@media only screen and (max-width: 600px) {}
+
+/*tablet*/
+@media only screen and (min-width: 768px) {}
+
+/*desktop*/
+@media only screen and (min-width: 992px) {}
+
+
+/*mediaquery slut*/
